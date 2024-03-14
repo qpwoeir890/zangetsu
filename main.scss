@@ -1,0 +1,99 @@
+body {
+  background-color: #161a30;
+  header {
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 20px;
+      .nav {
+        position: fixed;
+        z-index: 1n;
+        top: -0px;
+        width: 2040px;
+        margin: 0px 0px 0px -360px;
+        height: 80px;
+        border: 2px solid #222222;
+        background-color: #222222;
+        display: flex;
+        .a {
+          .img-1 {
+            width: 350px;
+            margin: 4px 0px 0px 50px;
+          }
+        }
+
+        ul {
+          li {
+            list-style-type: none;
+
+            a {
+              text-decoration: none;
+              color: #fff;
+              font-size: 20px;
+              margin: 10px 0px 0px 80px;
+            }
+          }
+        }
+      }
+    }
+  }
+  main {
+    section {
+      .container {
+        .menu {
+          width: 325px;
+          height: 940px;
+          background-color: #16022c99;
+          position: fixed;
+          z-index: 1;
+          top: 80px;
+          left: 0;
+          padding: 2vh 50px;
+          .title {
+            h1 {
+              font-size: 40px;
+              color: #fff;
+            }
+          }
+          .list_menu {
+            ul {
+              list-style-type: none;
+              li {
+                a {
+                  color: #fff;
+                  text-decoration: none;
+                  font-size: 30px;
+                  margin: 10px 0px 0px 0px;
+                }
+              }
+            }
+          }
+        }
+
+        .logine {
+          // background-color: #ffffff24;
+          // width: 1000px;
+          // height: 1000px;
+          .box {
+            margin: 250px 0px 0px 100px;
+
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+            background-color: #fff;
+            .img-3 {
+              width: 300px;
+              border-radius: 10px;
+              margin: 100px 0px 0px 0px;
+            }
+            .mr {
+              width: 250px;
+              height: 45px;
+              margin: 20px 0px 0px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
